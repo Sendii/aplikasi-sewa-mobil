@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/DefaultLayout"
+    tools:context=".MainActivity">
+
+    <TextView style="@style/LabelHeader"
+        android:text="Sign Up"/>
+
+    <EditText style="@style/EditText"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/txt_email"/>
+
+    <EditText style="@style/EditText"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/txt_password"/>
+
+    <EditText style="@style/EditText"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:id="@+id/txt_confirm_password"/>
+
+    <EditText style="@style/EditText"
+        android:hint="Fullname"
+        android:inputType="textPersonName"
+        android:id="@+id/txt_fullname"/>
+
+    <EditText style="@style/EditText"
+        android:hint="Birthday"
+        android:inputType="text|date"
+        android:id="@+id/txt_birthday"/>
+
+    <!--<EditText style="@style/EditText"-->
+        <!--android:hint="Telepon"-->
+        <!--android:inputType="textPhonetic"-->
+        <!--android:id="@+id/txt_telepon"/>-->
+    <Button style="@style/Button"
+        android:text="Submit"
+        android:id="@+id/btn_daftar"
+        android:onClick="daftar">
+    </Button>
+</LinearLayout>
